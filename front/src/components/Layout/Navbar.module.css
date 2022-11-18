@@ -24,6 +24,16 @@
 }
 
 .menuLink {
-    color: #fff;
-    font-size: 25px;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin : 10px;
 }
+
+.menuLink a {
+    text-decoration: none;
+}
+
+.menuLink span {
+    color: #FFFFFF;
+}
+

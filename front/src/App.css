@@ -19,10 +19,32 @@
 .main {
     flex: 0.8;
     width: 100%;
-    
 }
+
+.news-card{
+    min-height: 300px !important;
+}
+.news-image-container{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.news-title{
+width: 70%;
+}
+
+.news-image-container img{
+    width:100px;
+    height:100px;
+}
+.news-card p{
+    color: black;
+    margin: 10px 0px !important;
+}
+
 .routes {
     padding: 20px;
+    min-height: 1000px;
+    background-color: #f0f2f5;
 }
 
 .footer {
@@ -32,4 +54,9 @@
     flex-direction: column;
     padding: 20px;
     align-items: center;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }

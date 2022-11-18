@@ -1,6 +1,6 @@
 import React from 'react'
 import 'antd/dist/antd.less';
-import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
+import { IdcardOutlined, CoffeeOutlined, DollarOutlined, FundOutlined, UsbOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import icon from '../../images/logo.png';
 import classes from './Navbar.module.css';
@@ -14,19 +14,19 @@ const Navbar:React.FC = () => {
       </div>
       <div className={classes.menu}>
         <div className={classes.menuLink}>
-          <Link to="/about"><HomeOutlined style={{ color: 'hotpink' }}/> ABOUT</Link>
+          <Link to="/about"><IdcardOutlined /><span>LOG IN</span></Link>
         </div>
         <div className={classes.menuLink}>
-          <Link to="/about"><MoneyCollectOutlined style={{  fontSize: '32px'  }}/> ABOUT</Link>
+          <Link to="/about"><CoffeeOutlined/><span>ABOUT</span></Link>
         </div>
         <div className={classes.menuLink}>
-          <Link to="/about"><BulbOutlined style={{ color: 'hotpink' }}/> ABOUT</Link>
+          <Link to="/about"><DollarOutlined/><span>EXCHANGES</span></Link>
         </div>
         <div className={classes.menuLink}>
-          <Link to="/about"><FundOutlined style={{ color: 'hotpink' }}/> ABOUT</Link>
+          <Link to="/about"><FundOutlined/><span>CRYPTOS</span></Link>
         </div>
         <div className={classes.menuLink}>
-          <Link to="/about"><MenuOutlined style={{ color: 'hotpink' }}/> ABOUT</Link>
+          <Link to="/about"><UsbOutlined /><span>BONUS</span></Link>
         </div>
       </div>
     </div>
