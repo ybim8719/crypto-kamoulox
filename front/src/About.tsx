@@ -5,8 +5,6 @@ import 'antd/dist/antd.css';
 
 
 function About() {
-
-  console.log(process.env.REACT_APP_LOCAL_API_BASE_URL)
   return (
     <div>
       <Col xs={24} sm={12} lg={8}>

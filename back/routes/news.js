@@ -8,7 +8,6 @@ exports.getNews = async (req, res, next) => {
         if (!err.statusCode) {
             err.statusCode = 500;
         }
-        console.err
         next(err);
     }
 }

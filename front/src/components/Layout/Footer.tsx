@@ -6,7 +6,8 @@ const Footer:React.FC = () => {
     <Fragment>
       <div>
         CryptoChiasse<br/>
-        All Rights Reserved.
+        All Rights Reserved.<br/>
+        Vous êtes en mode {process.env.NODE_ENV}.
       </div>
       <div>
         <div>

@@ -1,6 +1,4 @@
 import React from 'react';
-import TodoItem from './TodoItem';
-
 
 // const Todos: React.FC<{items: Todo[], onRemove: (id: string) => void}> = (props) => {
 const Todos: React.FC= (props) => {
