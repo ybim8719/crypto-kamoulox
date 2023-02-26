@@ -1,9 +1,10 @@
 import React from 'react'
-import { Fragment } from 'react'
+import classes from './Footer.module.css';
+
 
 const Footer:React.FC = () => {
   return (
-    <Fragment>
+    <div className={classes.footer}>
       <div>
         CryptoChiasse<br/>
         All Rights Reserved.<br/>
@@ -14,7 +15,7 @@ const Footer:React.FC = () => {
           LINK 1 / LINK 2 / LINK 3
         </div>
       </div>
-    </Fragment>
+    </div>
   )
 }
 

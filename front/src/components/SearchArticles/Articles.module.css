@@ -1,0 +1,8 @@
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}

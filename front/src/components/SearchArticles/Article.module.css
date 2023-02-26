@@ -1,0 +1,24 @@
+article {
+    line-height: 1.5715;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    max-width: 33.33333333%;
+    font-family: 'BlinkMacSystemFont', 'Segoe UI';
+}
+
+/* cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s; */
+
+.article-title {
+
+}
+
+.article-description {
+    line-height: 1.5715
+}
+
+.article-pic {
+
+}

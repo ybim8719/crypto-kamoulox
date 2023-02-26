@@ -1,0 +1,20 @@
+.card-display {
+    border: 2px blue solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-display img {
+    width: 150px;
+    height: 150px;
+}
+
+.card-display img:hover {
+    cursor: pointer;
+    border: 2px red solid;
+
+}
+
+.was-won {
+    border: 2px green solid;
+}

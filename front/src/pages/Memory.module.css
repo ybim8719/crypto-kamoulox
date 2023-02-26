@@ -1,0 +1,14 @@
+.playground {
+    margin: auto 0%;
+    padding: 15px;
+    margin: 10px;
+    border: 2px brown solid;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.slotsRow {
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+}
