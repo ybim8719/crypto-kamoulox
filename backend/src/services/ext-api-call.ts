@@ -1,6 +1,10 @@
 import axios from 'axios';
 import { LegacyArticle, MappedArticle } from '../models/article';
 
+require('dotenv').config();
+
+
+
 const searchOptions = {
   method: 'GET',
   url: 'https://bing-news-search1.p.rapidapi.com/news/search',
@@ -13,7 +17,7 @@ const searchOptions = {
   },
   headers: {
     'X-BingApis-SDK': 'true',
-    'X-RapidAPI-Key': '5cb2d471f1msh9779a68ae4ae678p11966fjsnec2ae2b172b2',
+    'X-RapidAPI-Key': process.env.X_RAPID_API_Key,
     'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com',
     'Accept-Language': 'FR',
   }
